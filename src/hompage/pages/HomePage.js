@@ -1,5 +1,5 @@
 import React from "react";
-import Headline from "../components/Headline";
+//import Headline from "../components/Headline";
 
 const HomePage = (props)=>{
 
