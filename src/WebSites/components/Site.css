@@ -1,0 +1,27 @@
+.site-item {
+    
+    margin: 0 auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 6px;
+    background: white;
+    margin-top: 5px;
+    
+  }
+  .flex-row{
+      display: flex;
+      
+      justify-content:safe;
+  }
+  h5{
+      margin-left: 10px;
+  }
+  .rightSide{
+      display: flex;
+      justify-content: right;
+  }
+  .bt{
+      margin-left: 10px;
+  }

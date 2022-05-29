@@ -6,11 +6,11 @@ const Headline = (props)=>{
     const navigate = useNavigate();
     const handleStarted = (e)=>{
         e.preventDefault();
-       // navigate("/sign-up");
+        navigate("/add-website");
     }
     const handleLogin = (e)=>{
         e.preventDefault();
-       // navigate("/login");
+        navigate("/web-sites");
     }
     return(
         <div className = "hero-container">
@@ -30,7 +30,7 @@ const Headline = (props)=>{
           className='btns'
           onClick={handleLogin}
         >
-          EDIT <i className='far fa-play-circle' />
+          ALL WEBSITES <i className='far fa-play-circle' />
         </Button>
       </div>
         </div>

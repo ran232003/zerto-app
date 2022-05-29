@@ -16,9 +16,9 @@ const NavigationBar = (props)=>{
      
     </Nav>
     <Nav>
-      <Nav.Link as = {Link} to="/sign-up">Edit</Nav.Link>
-      <Nav.Link eventKey={2} as = {Link} to="/login">
-        WebSites
+      <Nav.Link as = {Link} to="/web-sites">All Websites</Nav.Link>
+      <Nav.Link eventKey={2} as = {Link} to="/add-website">
+       Add WebSites
       </Nav.Link>
     </Nav>
   </Navbar.Collapse>
